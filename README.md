@@ -9,3 +9,35 @@
 ```sh
 $ npm install --save swift-bic
 ```
+
+## Usage
+
+```js
+var BIC = require( 'swift-bic' )
+```
+
+```js
+> BIC.isValid( 'HELADEF1JEN' )
+< true
+```
+
+```js
+> BIC.parse( 'HELADEF1JEN' )
+< BIC {
+  institution: 'HELA',
+  country: 'DE',
+  location: 'F1',
+  branch: 'JEN'
+}
+```
+
+```js
+> var sparkasse = BIC.parse( 'HELADEF1JEN' )
+> sparkasse.isValid()
+< true
+```
+
+```js
+> sparkasse.toString()
+< 'HELADEF1JEN'
+```
