@@ -1,0 +1,32 @@
+{
+  "name": "swift-bic",
+  "version": "0.0.0",
+  "description": "SWIFT BIC (Business Identifier Code)",
+  "license": "MIT",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "keywords": [
+    "bank",
+    "swift",
+    "bic",
+    "fints",
+    "hbci",
+    "fintech",
+    "banking"
+  ],
+  "main": "lib/bic.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/node-swift-bic",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-swift-bic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-swift-bic/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
