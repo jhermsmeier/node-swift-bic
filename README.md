@@ -41,3 +41,7 @@ var BIC = require( 'swift-bic' )
 > sparkasse.toString()
 < 'HELADEF1JEN'
 ```
+
+## Related Modules
+
+- [fints-institute-db](https://github.com/jhermsmeier/fints-institute-db)
