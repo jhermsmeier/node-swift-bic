@@ -16,7 +16,7 @@
   "main": "lib/bic.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "mocha": "^5.0.1"
   },
   "peerDependencies": {},
   "optionalDependencies": {},
